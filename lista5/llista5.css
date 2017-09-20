@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.barra-superior-fixa{
+    background-color: #11B723;
+    overflow: auto;
+}
+
+.barra-superior-fixa ul{
+    list-style: none;
+}
+
+.barra-superior-fixa ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    float: left;
+    color: #FFFFFF;
+}
+
+.barra-superior-fixa ul li a:hover{
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.barra-lateral{
+    background-color: #ddd;
+    width: 15%;
+    height: 1000px;
+    float: left;
+}
+
+.barra-lateral ul{
+    list-style: none;
+}
+
+.barra-lateral ul p {
+    padding: 15px
+}
+
+.barra-lateral ul li a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.barra-lateral ul li a:hover{
+    background-color: #ccc;
+}
+
+.barra-superior-fixa > ul > li > a, .dropdown .dropdown-button{
+    display: block;
+    text-decoration: none;
+    color:#FFFFFF;
+    float:left;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.dropdown{
+    float: left;
+}
+
+.dropdown-content{
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 150px;
+    display: none;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown .dropdown-button{
+    float:none;
+}
+
+.barra-superior-fixa > ul > li > a:hover, .dropdown .dropdown-button:hover{
+    background-color: #FFFFFF;
+    color: black
+}
+
+.dropdown-content > ul{
+    list-style: none;
+}
+
+.dropdown-content > ul > li > a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-content > ul > li > a:hover{
+    background-color: #ccc;
+}
